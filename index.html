@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Doe | Personal Website</title>
+  <style>
+    /* ===== Global Styles ===== */
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0078ff, #00c6ff);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0078ff;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #005fcc;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    #about img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    #about p {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    #projects {
+      background: #fff;
+    }
+
+    .project {
+      margin-bottom: 30px;
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+    }
+
+    #contact {
+      text-align: center;
+    }
+
+    #contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      color: white;
+      background: #0078ff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    #contact a:hover {
+      background: #005fcc;
+    }
+
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header id="home">
+    <h1>John Doe</h1>
+    <p>Web Developer • Designer • Dreamer</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m John Doe — a passionate web developer who loves creating clean, responsive, and user-friendly websites.
+      This is a placeholder bio for your personal introduction. You can update it with your real story, skills, or background.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A modern and responsive portfolio design built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>A simple web app that displays live weather data using a free weather API.</p>
+    </div>
+    <div class="project">
+      <h3>Blog Template</h3>
+      <p>A minimalist blog layout ready for personal or professional use.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Want to get in touch? Drop me a message or connect below!</p>
+    <a href="mailto:john.doe@example.com">Email</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">GitHub</a>
+  </section>
+
+  <footer>
+    &copy; 2025 John Doe — All rights reserved.
+  </footer>
+
+</body>
+</html>
